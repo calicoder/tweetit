@@ -1,0 +1,14 @@
+development:
+  consumer_key: 1CfbBTzxSl5u7hyjRTT0Mw
+  consumer_secret: rFcGiDpBPqyacsVw875xdJ6pU4bpTh7bQK9VvXdgg
+  handle: coffeeisneeded
+
+test:
+  consumer_key: 1CfbBTzxSl5u7hyjRTT0Mw
+  consumer_secret: rFcGiDpBPqyacsVw875xdJ6pU4bpTh7bQK9VvXdgg
+  handle: coffeeisneeded
+
+production:
+  consumer_key: 1CfbBTzxSl5u7hyjRTT0Mw
+  consumer_secret: rFcGiDpBPqyacsVw875xdJ6pU4bpTh7bQK9VvXdgg
+  handle: coffeeisneeded
