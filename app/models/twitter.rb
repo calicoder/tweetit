@@ -21,7 +21,12 @@ class TweetIt
   def followers_for(handle)
     @twitter.followers(handle)
   end
+
+  def follow(handle)
+    @twitter.follow(handle)
+  end
 end
+
 
 
 MIN_TWEET_COUNT = 10
@@ -33,6 +38,8 @@ twitter = TweetIt.new()
 will_follow = 0
 begin
   num_attempts += 1
+  #twitter.tweet('Calm down, if the Mayans were good at predicting the future, there would still be Mayans.')
+  #twitter.follow("hdmoore")
   followers = twitter.followers_for("therealreal")
   followers.each do |follower|
     puts follower.inspect
@@ -67,7 +74,7 @@ begin
 
     puts "----"
   end
-rescue Twitter::Error::TooManyRequests => error
+rescu e Twitter::Error::TooManyRequests => error
   #if num_attempts <= MAX_ATTEMPTS
   #  sleep error.rate_limit.reset_in
   #  retry
