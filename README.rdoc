@@ -1,5 +1,7 @@
 Follow your followers with the Twitter model.
 
-```
-Test
-```
+twitter = Twitter.new
+
+twitter.tweet("HI THERE") - will tweet
+twitter.followers_for("calicoder) - will get followers for calicoder
+twitter.follow("calicoder") - will follow calicoder
